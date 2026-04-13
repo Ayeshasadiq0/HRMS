@@ -1245,7 +1245,6 @@ namespace HRMS_ERP.Forms
             Mark_absent.Click += BtnMarkLeave_Click;
             Export_attendance_inCSV.Click += BtnExportAttendance_Click;
             Upload_attendance_inCSV.Click += BtnUploadAttendance_Click;
-            Generate_summary_ofattendance_inCSV.Click += BtnGenerateAttendanceSummary_Click;
             View_attendance_summary.Click += BtnViewAttendanceSummary_Click;
 
             // Grid button click (Edit / Delete)
