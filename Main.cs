@@ -927,9 +927,9 @@ namespace HRMS_ERP.Forms
 
         private string BuildPayslipHtml(DataRow r, int month, int year)
         {
-            string Dec(string col) => r.Table.Columns.Contains(col) && r[col] != DBNull.Value
+            Func<string, string> Dec = col => r.Table.Columns.Contains(col) && r[col] != DBNull.Value
                 ? Convert.ToDecimal(r[col]).ToString("N2") : "0.00";
-            string Str(string col) => r.Table.Columns.Contains(col) && r[col] != DBNull.Value
+            Func<string, string> Str = col => r.Table.Columns.Contains(col) && r[col] != DBNull.Value
                 ? r[col].ToString() : "";
 
             return $@"<!DOCTYPE html>
@@ -1245,7 +1245,6 @@ namespace HRMS_ERP.Forms
             Mark_absent.Click += BtnMarkLeave_Click;
             Export_attendance_inCSV.Click += BtnExportAttendance_Click;
             Upload_attendance_inCSV.Click += BtnUploadAttendance_Click;
-            Generate_summary_ofattendance_inCSV.Click += BtnGenerateAttendanceSummary_Click;
             View_attendance_summary.Click += BtnViewAttendanceSummary_Click;
 
             // Grid button click (Edit / Delete)
