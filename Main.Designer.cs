@@ -148,7 +148,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.Export_attendance_inCSV = new System.Windows.Forms.Button();
             this.Upload_attendance_inCSV = new System.Windows.Forms.Button();
-            this.Generate_summary_ofattendance_inCSV = new System.Windows.Forms.Button();
             this.CheckIn_attendance = new System.Windows.Forms.Button();
             this.dataGridView_attendance = new System.Windows.Forms.DataGridView();
             this.Employee_name_attend = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -1339,7 +1338,6 @@
             this.tabpage5.Controls.Add(this.label6);
             this.tabpage5.Controls.Add(this.Export_attendance_inCSV);
             this.tabpage5.Controls.Add(this.Upload_attendance_inCSV);
-            this.tabpage5.Controls.Add(this.Generate_summary_ofattendance_inCSV);
             this.tabpage5.Controls.Add(this.CheckIn_attendance);
             this.tabpage5.Controls.Add(this.dataGridView_attendance);
             this.tabpage5.Controls.Add(this.label11);
@@ -1464,19 +1462,6 @@
             this.Upload_attendance_inCSV.TabIndex = 83;
             this.Upload_attendance_inCSV.Text = "Upload File";
             this.Upload_attendance_inCSV.UseVisualStyleBackColor = false;
-            // 
-            // Generate_summary_ofattendance_inCSV
-            // 
-            this.Generate_summary_ofattendance_inCSV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(120)))), ((int)(((byte)(212)))));
-            this.Generate_summary_ofattendance_inCSV.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Generate_summary_ofattendance_inCSV.ForeColor = System.Drawing.Color.White;
-            this.Generate_summary_ofattendance_inCSV.Location = new System.Drawing.Point(700, 17);
-            this.Generate_summary_ofattendance_inCSV.Margin = new System.Windows.Forms.Padding(4);
-            this.Generate_summary_ofattendance_inCSV.Name = "Generate_summary_ofattendance_inCSV";
-            this.Generate_summary_ofattendance_inCSV.Size = new System.Drawing.Size(185, 40);
-            this.Generate_summary_ofattendance_inCSV.TabIndex = 93;
-            this.Generate_summary_ofattendance_inCSV.Text = "Generate Summary";
-            this.Generate_summary_ofattendance_inCSV.UseVisualStyleBackColor = false;
             // 
             // CheckIn_attendance
             // 
@@ -2096,7 +2081,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button Export_attendance_inCSV;
         private System.Windows.Forms.Button Upload_attendance_inCSV;
-        private System.Windows.Forms.Button Generate_summary_ofattendance_inCSV;
         private System.Windows.Forms.Button CheckIn_attendance;
         private System.Windows.Forms.DataGridView dataGridView_attendance;
         private System.Windows.Forms.Label label11;
